@@ -1,0 +1,19 @@
+GET http://localhost:1000/ HTTP/1.1
+
+######
+
+POST http://localhost:1000 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Learn MongoDB"
+}
+
+PUT  http://localhost:1000/6067006e6d5d661830f81b63 HTTP/1.1
+content-type: application/json
+
+{
+}
+
+
+
